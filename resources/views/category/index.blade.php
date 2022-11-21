@@ -31,7 +31,7 @@
                         <form method="post" action="{{route('category.destroy', $category)}}">
                             @csrf
                             @method('delete')
-                            <x-primary-button class="mt-4" onClick="return confirm('本当に削除しますか？');">
+                            <x-primary-button class="myclass3" onClick="return confirm('本当に削除しますか？');">
                                 削除する
                             </x-primary-button>
                         </form>

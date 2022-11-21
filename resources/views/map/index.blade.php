@@ -28,7 +28,7 @@
                     <td class="border-gray-light border hover:bg-gray-100 p-3">{{$map->category->name}}</td>
                     <td class="border-gray-light border hover:bg-gray-100 p-3">
                         <a href="{{route('map.edit', $map)}}">
-                            <x-primary-button class="mt-4">
+                            <x-primary-button class="myclass2">
                                 編集する
                             </x-primary-button>
                         </a>
@@ -37,7 +37,7 @@
                         <form method="post" action="{{route('map.destroy', $map)}}">
                             @csrf
                             @method('delete')
-                            <x-primary-button class="mt-4" onClick="return confirm('本当に削除しますか？');">
+                            <x-primary-button class="mycalss3" onClick="return confirm('本当に削除しますか？');">
                                 削除する
                             </x-primary-button>
                         </form>

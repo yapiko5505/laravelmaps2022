@@ -5,3 +5,11 @@
 .myclass {
     @apply bg-teal-700;
 }
+
+.myclass2 {
+    @apply bg-blue-700;
+}
+
+.myclass3 {
+    @apply bg-red-700;
+}
