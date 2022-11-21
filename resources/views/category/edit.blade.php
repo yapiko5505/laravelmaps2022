@@ -24,7 +24,7 @@
                     </div>
     
 
-                    <x-primary-button class="bg-teal-500">
+                    <x-primary-button class="myclass">
                         送信する
                     </x-primary-button>
                     

@@ -2,3 +2,6 @@
 @tailwind components;
 @tailwind utilities;
 
+.myclass {
+    @apply bg-teal-700;
+}
