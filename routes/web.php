@@ -17,7 +17,7 @@ use App\Http\Controllers\MapController;
 
 Route::get('/', function () {
     return view('welcome');
-});
+})->name('top');
 
 Route::get('/dashboard', function () {
     return view('dashboard');
