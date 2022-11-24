@@ -37,7 +37,7 @@
                         <form method="post" action="{{route('map.destroy', $map)}}">
                             @csrf
                             @method('delete')
-                            <x-primary-button class="mycalss3" onClick="return confirm('本当に削除しますか？');">
+                            <x-primary-button class="myclass3" onClick="return confirm('本当に削除しますか？');">
                                 削除する
                             </x-primary-button>
                         </form>

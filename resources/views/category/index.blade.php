@@ -22,7 +22,7 @@
                     <td class="border-gray-light border hover:bg-gray-100 p-3">{{$category->name}}</td>
                     <td class="border-gray-light border hover:bg-gray-100 p-3">
                         <a href="{{route('category.edit', $category)}}">
-                            <x-primary-button class="mt-4">
+                            <x-primary-button class="myclass2">
                                 編集する
                             </x-primary-button>
                         </a>

@@ -17,7 +17,7 @@
         <div class="font-sans text-gray-900 antialiased">
             <div class="w-full container mx-auto p-6">
                 <div class="w-full flex items-center justify-between">
-                    <div class="flex w-1/2 justify-end content-center">
+                    <div class="flex justify-end content-center">
                         <a href="{{route('top')}}"><img src="{{asset('logo/0-12.jpg')}}" style="max-height:80px;"></a>
                         <!-- ログイン・登録部分 -->
                         @if (Route::has('login'))
